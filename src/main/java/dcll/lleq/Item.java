@@ -37,6 +37,12 @@ public class Item {
         return true;
     }
 
+    /**
+     * modification du hashcode
+     * pour l'issue 2
+     *
+     * @return
+     */
     @Override
     public int hashCode() {
         return s != null ? s.hashCode() : 0;
