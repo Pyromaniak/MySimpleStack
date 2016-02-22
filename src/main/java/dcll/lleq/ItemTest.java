@@ -5,6 +5,9 @@ import org.junit.Test;
 
 public class ItemTest {
 
+    /**
+     * Comment
+     */
     Item item1 = new Item("pomme");
     Item item2 = new Item("poire");
 
